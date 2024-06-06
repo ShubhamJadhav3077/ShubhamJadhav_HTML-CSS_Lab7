@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+}
+
+nav {
+    background-color: gray;
+    height: 22px;
+}
+
+h1 {
+    background-color: red;
+    height: 50px;
+    text-align: right;
+    padding-top: 30px;
+    padding-right: 10px;
+}
+
+#links li {
+    text-decoration: none;
+    list-style: none;
+}
+
+#links li a {
+    color: white;
+    text-decoration: none;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+    padding: 10px;
+}
+
+#links>li {
+    display: inline-block;
+}
+
+#sublinks1,
+#sublinks2 {
+    display: none;
+    position: absolute;
+    background-color: whitesmoke;
+    top: 102px;
+    padding: 0;
+}
+
+#link2:hover #sublinks1 {
+    display: block;
+}
+
+#link3:hover #sublinks2 {
+    display: block;
+}
+
+#links li:hover {
+    background-color: black;
+}
+
+#sublinks1 li a,
+#sublinks2 li a {
+    color: #AFC6DA;
+    font-size: 15px;
+}
